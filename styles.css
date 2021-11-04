@@ -1,0 +1,33 @@
+p {
+    font-family: "Monaco", monospace;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.franja-arriba,
+.franja-abajo{
+    background-color: skyblue;
+}
+
+li {
+    font-family: "Monaco", monospace;
+    font-weight: 700;
+}
+
+.franja-abajo li{
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "Monaco", monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: black;
+    font-family: "Monaco", monospace;
+}
