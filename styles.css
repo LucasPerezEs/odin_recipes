@@ -12,7 +12,14 @@ p {
 
 li {
     font-family: "Monaco", monospace;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.imagen-centro{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: inset;
 }
 
 .franja-abajo li{
@@ -24,10 +31,24 @@ h1 {
     font-family: "Monaco", monospace;
     font-weight: bold;
     color: black;
+    text-align: center;
 }
 
-.subtitle{
+.subtitle, .sub-izquierda{
     font-size: 20px;
     color: black;
     font-family: "Monaco", monospace;
+}
+
+.subtitle .sub-izquierda{
+    text-align: left;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+
+.li-index{
+    text-align: center;
 }
